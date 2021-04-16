@@ -1,0 +1,91 @@
+/* container holding image and text */
+
+* {
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+body {
+  font-family: verdana;
+  margin: 0;
+}
+
+/* Bottom Centered text */
+.bottom-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Use vw unit to make the text responsive */
+h1 {
+  font-size: 4vw;
+}
+
+h2 {
+  font-size: 3vw;
+  color: aliceblue;
+}
+
+p {
+  font-size: 20px;
+  padding: 25px;
+  color: white;
+}
+
+/*Site background  */
+body {
+  width: 100%;
+  height: 100%;
+  background: url("../images/sitebg.jpg") no-repeat center fixed;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+/* Navigation Bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active{
+  background-color:#111;
+}
+
+h4,
+i {
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

@@ -1,0 +1,21 @@
+
+.fixed-footer {
+  width: 100%;
+  position: fixed;
+  background: #333;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.containerFooter {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.fixed-footer {
+  bottom: 0;
+}
+
+/* Some more styles to beutify this example */
+

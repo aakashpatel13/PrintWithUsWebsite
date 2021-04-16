@@ -1,0 +1,52 @@
+  h3{
+    font-family: verdana; 
+    font-size: 25px;         
+    font-style: normal; 
+    font-weight: bold; 
+    color:white;
+    text-align: center;
+    outline: #111 solid 5px;
+    display: inline;
+    padding: 6px;
+
+}
+
+/* Style the table */
+table{
+    border-radius: 5px;
+    font-family: verdana; 
+    color:white;  
+    font-size: 12px; 
+    background-color: darkslategray; 
+    border-collapse: collapse;
+    font-style: normal;
+    font-weight: bold;
+    width: 50%;
+    max-width: 50%;
+}
+
+label{
+    color: white;
+}
+
+/* Style the submit and reset button with a specific background color etc */
+input[type="submit"],
+input[type="reset"] {
+  background-color: #4b0082;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+  /* When moving the mouse over the submit button, add a darker purple color */
+input[type="submit"]:hover {
+    background-color: #800080;
+  }
+
+  /* When moving the mouse over the reset button, add a darker purple color */
+  input[type="reset"]:hover {
+    background-color: #800080;
+  }
+

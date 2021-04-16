@@ -1,0 +1,73 @@
+.heading {
+    margin-top: 3%;
+    margin-left: 10%;
+    text-align: center;
+    width: 180px;
+    height: 50px;
+    background: #EC6D58;
+    position: relative;
+}
+
+#Contact {
+    padding: 15px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+:before {
+    content: '';
+    position: absolute;
+    right: -25px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 25px solid #EC6D58;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+}
+
+#form {
+    margin-left: 9%;
+}
+
+h2 {
+    margin: 1%;
+}
+
+form {
+    display: flex;
+}
+
+#name {
+    margin: 1%;
+    height: 40px;
+    width: 200px;
+}
+
+#mail {
+    margin: 1%;
+    height: 40px;
+    width: 200px;
+}
+
+#phone {
+    margin: 1%;
+    height: 40px;
+    width: 200px;
+}
+
+#message {
+    margin: 1%;
+    height: 300px;
+    width: 678px;
+    text-indent: 20px;
+}
+
+#btn {
+    margin: 1%;
+    color: whitesmoke;
+    background-color: #EC6D58;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}

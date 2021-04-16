@@ -1,0 +1,110 @@
+.heading {
+    margin-top: 3%;
+    margin-left: 10%;
+    text-align: center;
+    width: 180px;
+    height: 50px;
+    background: #EC6D58;
+    position: relative;
+}
+
+#aboutusheading {
+    padding: 15px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+:before {
+    content: '';
+    position: absolute;
+    right: -25px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 25px solid #EC6D58;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+}
+
+.top_container {
+    margin-top: 5%;
+    display: flex;
+    /* grid-gap: 20px;
+            grid-template-areas: 'showcase  top-box-a'; */
+}
+
+.showcase {
+    margin-left: 10%;
+    width: 500px;
+    /*box-shadow: var(--shadow);*/
+}
+
+.showcase img {
+    width: 498px;
+    height: 323px;
+}
+
+.top-box-a {
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    margin-top: 5rem;
+    margin-left: 4rem;
+    width: 35rem;
+    height: 15rem;
+    text-align: justify;
+}
+
+
+/* whyus part */
+
+
+/* .whyus-container {
+    margin-left: 20%;
+}
+
+#iconImage {
+    width: 50px;
+    height: 50px;
+}
+
+.first {
+    display: flex;
+    padding: 10px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+} */
+
+.whyus-container {
+    width: 100%;
+    margin-left: 20%;
+}
+
+.first {
+    padding: 10px;
+    font-size: 13px;
+    width: 100%;
+    display: flex;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
+#iconImage {
+    width: 48px;
+    height: 48px;
+}
+
+.leftside {
+    display: flex;
+}
+
+.rightSide {
+    display: flex;
+}
+
+.Box {
+    width: 65%;
+    margin-left: 5%;
+    margin-top: -2%;
+}
+
+#why-us-heading {
+    font-size: 30px;
+    margin-left: 1%;
+}
